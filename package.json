@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/robertalxa/teste-tecnico-gupy/issues"
   },
-  "homepage": "https://github.com/robertalxa/teste-tecnico-gupy#readme"
+  "homepage": "https://github.com/robertalxa/teste-tecnico-gupy#readme",
+  "type": "module"
 }
