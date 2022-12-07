@@ -7,8 +7,7 @@ export default class Exercicio3 {
 
     buscaCondicionada(condicao = '') {
         if (!condicao) {
-            console.error('Escolha uma condição para a busca, "MAIOR" ou "MENOR"');
-            return [];
+            throw 'Escolha uma condição para a busca, "MAIOR" ou "MENOR"';
         }
 
         let menoresDias = [];
@@ -20,8 +19,7 @@ export default class Exercicio3 {
             } else if (condicao === 'MENOR') {
                 if (dia.valor < menorDia.valor) menorDia = dia;
             } else {
-                console.error('Escolha uma condição para a busca, "MAIOR" ou "MENOR"');
-                return [];
+                throw 'Escolha uma condição para a busca, "MAIOR" ou "MENOR"'
             }
         }
 

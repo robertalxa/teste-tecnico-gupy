@@ -3,6 +3,7 @@ import Exercicio2 from "./models/Exercicio2.js";
 import dados from "./data/dados.json" assert {type: 'json'};
 import Exercicio3 from "./models/Exercicio3.js";
 import Exercicio4 from "./models/Exercicio4.js";
+import Exercicio5 from "./models/Exercicio5.js";
 
 console.log('\nEx1:');
 const ex1 = new Exercicio1();
@@ -43,3 +44,7 @@ const dadosDistrib = [
 ]
 const ex4 = new Exercicio4(dadosDistrib);
 ex4.calculaPorcentagemContribuicao();
+
+console.log('\nEx5:');
+const ex5 = new Exercicio5('será que está revertendo a string?');
+console.log(`String original: "${ex5.stringOriginal}"\nString inversa: "${ex5.stringInversa}"`);
